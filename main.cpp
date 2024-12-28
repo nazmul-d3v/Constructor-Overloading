@@ -1,4 +1,3 @@
-
 #include<iostream>
 using namespace std;
 
@@ -6,7 +5,7 @@ class demo
 {
     int a;
 public:
-    demo() //d
+    demo() 
     {
         a=10;
     }
