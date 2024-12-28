@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 
@@ -13,16 +14,16 @@ public:
     {
         a=x;
     }
-demo (demo & z )
-{
- a=z.a;
-    
-}
+    demo (demo & z )
+    {
+        a=z.a;
 
-void putdata()
-{
-    court<<"\n a="<<a;
-}
+    }
+
+    void putdata()
+    {
+        cout<<"\n a="<<a;
+    }
 };
 
 int main()
