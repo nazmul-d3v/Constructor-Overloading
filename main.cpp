@@ -1,9 +1,16 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
 
-int main()
+class demo
 {
-    cout << "Hello world!" << endl;
-    return 0;
-}
+    int a;
+public:
+    demo() //d
+    {
+        a=10;
+    }
+    demo(int x)
+    {
+        a=x;
+    }
+};
